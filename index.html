@@ -6,44 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVENT-TICKET</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+        body {}
+
         .container {
 
             height: 280px;
             width: 600px;
-            border:none;
+            border: none;
             margin: 170px auto;
             display: flex;
-           
+
         }
 
         .part-1 {
             width: 35%;
-            border: 1px solid black;
-            border-right: 1px dashed black;
-            background-color: red;
+            border: 1px solid rgb(140, 38, 38);
+            border-right: 2px dashed black;
+            background-color:white ;
             border-radius: 20px;
             box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.9);
+            padding: 10px;
+            padding-right: 15px;
+            overflow: hidden;
+            position: relative;
+            color:  rgb(84, 60, 139);
+
         }
+        .main-head1{
+            text-align: center;
+            font-size: 12px;
+            position: absolute;
+            font-family: "Bebas Neue", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .college-logo {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .number {
+            color: black;
+            position: absolute;
+            font-size: 20px;
+            text-align: center;
+            bottom: 5%;
+            right: 13px;
+            font-family: "Bebas Neue", serif;
+            font-weight: 400;
+
+        }
+
 
         .part-2 {
 
             width: 65%;
-            border: 1px solid black;
-            border-left: 1px dashed black;
-            background-color: blue;
+            border: 1px solid rgb(162, 42, 42);
+            border-left: 2px dashed black;
+            background-color: rgb(84, 60, 139);
             border-radius: 20px;
             box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.9);
+            padding: 10px;
+            padding-top: 1px;
+            position: relative;
         }
+
+        .main-head {
+            text-align: left;
+            font-family: "Bebas Neue", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            padding:  20px 0;
+            
+
+        }
+        .detail{
+            padding: 10px;
+            text-align: left;
+            font-family: "Bebas Neue", serif;
+            font-size: 20px;
+        }
+        
     </style>
 </head>
 
 <body>
     <div class="container">
         <div class="part-1">
+            <span class="number">
+                TN000323
+            </span>
+            
+            <span class="main-head1">
+
+
+                <h1>
+                    Campus Carnival 2024
+                </h1>
+
+
+            </span>
+
+            <img src="COLLEGE-TICKET.jpg" alt="" class="college-logo">
+
 
         </div>
+
         <div class="part-2">
 
+            <span class="main-head">
+
+
+                <h1>
+                    Campus Carnival 2024
+                </h1>
+
+
+            </span>
+            <span class="detail">
+                Date: December 20, 2024 
+            </span><br>
+            <span class="detail">
+                Time: 6:00 PM - 10:00 PM 
+            </span><br>
+            <span class="detail">
+                Venue: College Auditorium 
+            </span><br>
+            <span class="detail">
+                Address: 123 College Ave, Building B 
+            </span><br>
+               
+              
+              
+            
+            <span class="number">
+                TN000323
+            </span>
         </div>
     </div>
 </body>
